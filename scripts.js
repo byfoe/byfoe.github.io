@@ -1,4 +1,9 @@
-   $(document).ready(function () {
+
+window.onload = function() {
+            var audio = document.getElementById('myAudio');
+            audio.play();
+   
+$(document).ready(function () {
             let ekrah = $('.ekrah').wrapInner('<div></div>'),
                 min = 20,
                 max = 70,
@@ -41,7 +46,3 @@
                 elem.addClass('start');
             }
         });
-
-window.onload = function() {
-            var audio = document.getElementById('myAudio');
-            audio.play();
