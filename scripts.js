@@ -5,7 +5,7 @@ $(document).ready(function () {
         minMove = 10,
         maxMove = 20;
 
-    startAnimation(loading);
+    startAnimation(ekrah);
 
     ekrah.on('animationend webkitAnimationEnd oAnimationEnd', 'span:last-child', e => {
         startAnimation(ekrah);
