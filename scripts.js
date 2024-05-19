@@ -1,8 +1,3 @@
-
-window.onload = function() {
-            var audio = document.getElementById('myAudio');
-            audio.play();
-   
 $(document).ready(function () {
             let ekrah = $('.ekrah').wrapInner('<div></div>'),
                 min = 20,
