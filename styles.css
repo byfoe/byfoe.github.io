@@ -64,3 +64,6 @@ body .dribbble img {
   display: block;
   height: 28px;
 }
+
+p {
+  color: red;
