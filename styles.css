@@ -1,4 +1,4 @@
-.loading {
+.ekrah {
     --color: #f5f9ff;
     --duration: 2000ms;
     font-family: Roboto, Arial;
@@ -9,7 +9,7 @@
     color: var(--color);
 }
 
-.loading span {
+.ekrah span {
     --x: 0;
     --y: 0;
     --move-y: 0;
@@ -25,11 +25,11 @@
     transform: translate(var(--x), var(--y));
 }
 
-.loading.start div {
+.ekrah.start div {
     opacity: 0;
 }
 
-.loading.start span {
+.ekrah.start span {
     animation: move var(--duration) ease-in-out var(--delay);
 }
 
