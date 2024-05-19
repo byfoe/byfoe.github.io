@@ -24,7 +24,7 @@
   transform: translate(var(--x), var(--y));
 }
 .ekrah.start div {
-  opacity: 0.1;
+  opacity: 0;
 }
 .ekrah.start span {
   animation: move var(--duration) ease-in-out var(--delay);
