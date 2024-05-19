@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    let loading = $('.loading').wrapInner('<div></div>'),
+    let ekrah = $('.ekrah').wrapInner('<div></div>'),
         min = 20,
         max = 70,
         minMove = 10,
@@ -7,8 +7,8 @@ $(document).ready(function () {
 
     startAnimation(loading);
 
-    loading.on('animationend webkitAnimationEnd oAnimationEnd', 'span:last-child', e => {
-        startAnimation(loading);
+    ekrah.on('animationend webkitAnimationEnd oAnimationEnd', 'span:last-child', e => {
+        startAnimation(ekrah);
     });
 
     //Set CSS vars & generate spans if needed
