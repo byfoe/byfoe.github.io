@@ -1,2 +1,2 @@
-Telegram Group : PixelExperienceGsi
-Telegram Channel: @GsiUpdate
+Telegram Group : t.me/PixelExperienceGsi
+Telegram Channel: t.me/GsiUpdate
